@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="inscriptionetudiant.css">
+    <title>Inscription</title>
+</head>
+<body>
+<section class="inscri" >
+    <h2>Inscription universitaire</h2>
+    <form>
+        <table>
+            <tr>
+                <td>Nom:</td>
+                <td><input type="text" name="nom" required></td>
+            </tr>
+            <tr>
+                <td>Prénom:</td>
+                <td><input type="text" name="prenom" required></td>
+            </tr>
+            <tr>
+                <td>Adresse e-mail:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Mot de passe:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Date de naissance:</td>
+                <td><input type="date" name="date_naissance" required></td>
+            </tr>
+           
+            <tr>
+                <td>Section :</td>
+                <td>
+                    <select name="Section">
+                        <option value="...">...</option>
+                        <option value="business intelligence">Business intelligence</option>
+                        <option value="gestion">Gestion</option>
+                        <option value="economie">Economie</option>
+                        <option value="finance">Finance</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="management">Management</option>
+                    </select>
+                </td>
+            </tr>
+            <td>Niveau :</td>
+                <td>
+                    <select name="Niveau">
+                        <option value="...">...</option>
+                        <option value="1ére">1ére</option>
+                        <option value="2ème">2ème</option>
+                        <option value="3ème">3ème</option>
+                        <option value="...">M1</option>
+                        <option value="1ére">M2</option>
+                    </select>
+                </td>
+        </table>
+        <input type="submit" value="S'inscrire">
+    </form>
+</section>
+</body>

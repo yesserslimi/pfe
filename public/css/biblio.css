@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.title {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.bib {
+    background: url(https://www.htmlcsscolor.com/preview/gallery/00002A.png);
+    background-size: cover;
+    background-position: center;
+}
+.bib .content {
+    margin-top: 30px;
+}
+.bib-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.bib-card:hover {
+    transform: scale(1.1); 
+}
+.bib-card:hover .book-img {
+    opacity: 0.9;
+}
+.book-img img {
+    width: 290px;
+    height: 300px;
+}
+.bib-info {
+    padding: 1em;
+}
+.book-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.source {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.source:hover {
+    color: #601cfc;
+}
